@@ -8,6 +8,8 @@
 /debug/
 /release/
 /target/
+/toijala-lunch
+/documentation.list
 Makefile
 *.o
 *.a
