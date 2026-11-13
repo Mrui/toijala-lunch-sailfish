@@ -1,0 +1,23 @@
+Name: toijala-lunch
+Summary: Toijala Lunch menu
+Version: 0.1
+Release: 1
+Group: Qt/Qt
+URL: https://sailfishos.org/
+License: LICENSE
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  Displays the daily lunch menu for Toijala
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- sailfishapp
+Files:
+- '%{_bindir}'
+- '%{_datadir}/%{name}/qml'
+- '%{_datadir}/applications/%{name}.desktop'
+- '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'

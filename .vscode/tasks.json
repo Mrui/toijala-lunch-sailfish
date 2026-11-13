@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Toijala Lunch RPM (aarch64)",
+            "type": "shell",
+            "command": "${env:HOME}/SailfishOS/bin/sfdk engine start && ${env:HOME}/SailfishOS/bin/sfdk config --session --push target SailfishOS-5.1.0.11-aarch64 && ${env:HOME}/SailfishOS/bin/sfdk build",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

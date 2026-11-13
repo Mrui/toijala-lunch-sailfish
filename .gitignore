@@ -1,0 +1,25 @@
+# Qt Creator user-specific settings
+*.pro.user
+*.pro.user.*
+
+# Build output
+/build/
+/build-*/
+/debug/
+/release/
+/target/
+Makefile
+*.o
+*.a
+*.so
+*.so.*
+*.qmlc
+*.jsc
+*.moc
+moc_*.cpp
+qrc_*.cpp
+
+# Sailfish SDK state and generated packages
+/.sfdk/
+/RPMS/
+*.rpm
